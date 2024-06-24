@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+h2 {
+  color: #2980b9;
+  margin-top: 30px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+.tip {
+  background-color: #f0f8ff;
+  border-left: 5px solid #3498db;
+  padding: 10px;
+  margin: 20px 0;
+}
+/* 番号付きリスト（ol）のスタイル */
+ol {
+  list-style-type: decimal; /* 1, 2, 3, ... */
+  padding-left: 30px; /* リストの左側のスペース */
+  margin-bottom: 20px; /* リストの下のマージン */
+}
+
+ol li {
+  padding-left: 10px; /* リストアイテムの左側のパディング */
+  margin-bottom: 10px; /* リストアイテム間のスペース */
+}
+
+/* 箇条書きリスト（ul）のスタイル */
+ul {
+  list-style-type: disc; /* ● */
+  padding-left: 30px; /* リストの左側のスペース */
+  margin-bottom: 20px; /* リストの下のマージン */
+}
+
+ul li {
+  padding-left: 10px; /* リストアイテムの左側のパディング */
+  margin-bottom: 10px; /* リストアイテム間のスペース */
+}
+
+/* ネストされたリストのスタイル（必要な場合） */
+ul ul,
+ol ul {
+  list-style-type: circle; /* ○ */
+  margin-top: 10px; /* 親リストアイテムとの間隔 */
+}
+
+ol ol,
+ul ol {
+  list-style-type: lower-alpha; /* a, b, c, ... */
+  margin-top: 10px; /* 親リストアイテムとの間隔 */
+}
