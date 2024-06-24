@@ -62,5 +62,5 @@ ol ul {
 ol ol,
 ul ol {
   list-style-type: lower-alpha; /* a, b, c, ... */
-  margin-top: 10px; /* 親リストアイテムとの間隔 */
+  margin-top: 10px;
 }
